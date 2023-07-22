@@ -1,15 +1,30 @@
 import './App.css';
+import TodoApp from './components/todo/TodoApp'
 // import CounterButton from './components/counter/CounterButton';
-import Counter from './components/counter/Counter';
+// import Counter from './components/counter/Counter';
+
 
 function App(){
   return(
     <div className='App'>
-      <Counter />
+      <TodoApp />
     </div>
     
   )
 }
+
+
+
+
+
+// function App(){
+//   return(
+//     <div className='App'>
+//       <Counter />
+//     </div>
+    
+//   )
+// }
 
 // function PlayingWithProps(properties){
 //   console.log(properties)
