@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+// import CounterButton from './components/counter/CounterButton';
+import Counter from './components/counter/Counter';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  return(
+    <div className='App'>
+      <Counter />
     </div>
-  );
+    
+  )
 }
+
+// function PlayingWithProps(properties){
+//   console.log(properties)
+//   console.log(properties.property2)
+//   console.log(properties.property)
+
+
+//   return (
+//     <div>Props</div>
+//   )
+// }
+
+// function PlayingWithProps({property,property2}){
+//   console.log(property2)
+//   console.log(property)
+
+
+//   return (
+//     <div>Props</div>
+//   )
+// }
+
+
 
 export default App;
